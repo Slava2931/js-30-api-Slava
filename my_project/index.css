@@ -1,0 +1,55 @@
+.basic{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.main{
+  margin: 0;
+  width: 100%;
+  height: 90%;
+  background-color: antiquewhite;
+}
+.footer {
+  margin: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-color: black;
+  }
+  .footer1{
+    margin: 0;
+    position: relative;
+    top: 30%;
+    left: 3%;
+    border: 0;
+    background-color: #000;
+    color: #fff;
+    width: 6%;
+    height: 100px;
+    text-decoration: none;
+  }
+  .footer1:hover{
+    color: #bb945f;
+    transition: 2s;
+  }
+  .footer2{
+    position: relative;
+    margin: 0;
+    top: 10%;
+    left: 40%;
+    width: 15%;
+    background-color: #000;
+    color: #fff;
+  }
+  .footer3{
+    position: relative;
+    margin: 0;
+    top: -35%;
+    left: 80%;
+    width: auto;
+    height: 100%;
+    background-color: #fff;
+  }
