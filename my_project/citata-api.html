@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="basic">
+    <main class="main">
+    <script> const url = 'https://type.fit/api/quotes';
+    async function getData() {
+  const res = await fetch(url);
+  const data = await res.json();
+  console.log(data);
+}
+getData();
+    </script>
+    </main>
+    <footer class="footer">
+        <a href="https://github.com/Slava2931" class="footer1">GitHub</a>
+        <p class="footer2">28 September 2023</p>
+       <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="logo rs_school" class="footer3"></a> 
+    </footer>
+</body>
+</html>
